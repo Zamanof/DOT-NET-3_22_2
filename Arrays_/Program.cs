@@ -1,6 +1,7 @@
 ﻿#region arrays
 int[] numbers = new int[5] { 2, 6, 9, 8, 26 };
 //Console.WriteLine(numbers[^1]);
+//var ar = numbers[2..4];
 //for (int i = 0; i < numbers.Length; i++)
 //{
 //    Console.Write($"{numbers[i]} ");

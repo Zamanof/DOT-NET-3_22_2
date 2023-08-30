@@ -18,13 +18,16 @@
 //Console.WriteLine($"Welcome {name}");
 #endregion
 
-string name = "Nadir";
+string name = "nadir";
 
 Console.WriteLine(name[0]);
 // indices
 Console.WriteLine(name[^1]);
 
 // ranges
-Console.WriteLine(name[1..4]); // adi
-Console.WriteLine(name[1..]); // adir
-Console.WriteLine(name[..4]); // Nadi
+//Console.WriteLine(name[1..4]); // adi
+//Console.WriteLine(name[1..]); // adir
+//Console.WriteLine(name[..4]); // Nadi
+//name = name[0] + name[1..];
+
+// P.S.  читает StringBuilder

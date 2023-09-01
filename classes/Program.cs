@@ -7,6 +7,7 @@ human2.name = "A-tilla";
 Console.WriteLine($"{human.name} {human2.name}");
 
 Console.WriteLine(Human.count);
+Console.WriteLine(Human.field1);
 
 void Bar()
 {
@@ -20,16 +21,24 @@ public class Human
     public int age;
 
     public static int count;
+    public const int field1 = 25;
+    public readonly int field2;
 
+    static Human()
+    { 
+        count = 0;
+        
+    }
     public Human()
         :this("Empty", "Empty", 0)
     {}
 
-    public Human(string name, string surname, int age)
+    public Human(string name, string surname, int age, int field2 = 0)
     {
         this.name = name;
         this.surname = surname;
         this.age = age;
+        this.field2 = field2;
     }
 
     public void Foo()
@@ -50,3 +59,4 @@ class Bambarbiya
     }
 }
 
+// obfuscator, ref, out

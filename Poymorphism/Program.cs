@@ -6,12 +6,12 @@
 //derived.Show();
 
 
-//Base derive = new Derived();
-//Console.WriteLine(derive.Field1); 
-//((Derived)derive).Show();
+Base derive = new Derived();
+Console.WriteLine(derive.Field1);
+((Derived)derive).Show();
 
 //Foo(myBase);
-//Foo(derive);
+Foo(derive);
 //Foo(derived);
 //Foo(new Child());
 //derived.Print();

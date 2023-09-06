@@ -43,9 +43,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "namespaces", "namespaces\na
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 06", "Lesson 06", "{65C61EE1-DA30-4F15-80E0-710D888CF30E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{3063AD1B-EE44-4216-B76D-A9F0C69DCA08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "Inheritance\Inheritance.csproj", "{3063AD1B-EE44-4216-B76D-A9F0C69DCA08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poymorphism", "Poymorphism\Poymorphism.csproj", "{6A5FA601-D2CA-4CD2-BEE0-074B06736689}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Poymorphism", "Poymorphism\Poymorphism.csproj", "{6A5FA601-D2CA-4CD2-BEE0-074B06736689}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 07", "Lesson 07", "{F05D354D-5888-482B-BB89-586BA3112CE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operator Overloading", "Operator Overloading\Operator Overloading.csproj", "{AA5F072B-1664-48BB-BB2F-F69D845242C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Typecasting overload", "Typecasting overload\Typecasting overload.csproj", "{65702A67-46E7-43E1-966F-7B6E7C793CE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +123,14 @@ Global
 		{6A5FA601-D2CA-4CD2-BEE0-074B06736689}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A5FA601-D2CA-4CD2-BEE0-074B06736689}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A5FA601-D2CA-4CD2-BEE0-074B06736689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA5F072B-1664-48BB-BB2F-F69D845242C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA5F072B-1664-48BB-BB2F-F69D845242C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA5F072B-1664-48BB-BB2F-F69D845242C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA5F072B-1664-48BB-BB2F-F69D845242C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65702A67-46E7-43E1-966F-7B6E7C793CE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65702A67-46E7-43E1-966F-7B6E7C793CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65702A67-46E7-43E1-966F-7B6E7C793CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65702A67-46E7-43E1-966F-7B6E7C793CE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -138,6 +152,8 @@ Global
 		{BB2C3350-4954-4E14-A1F5-8B310908EDEB} = {BE98E60E-7E8B-4486-A641-015029494E21}
 		{3063AD1B-EE44-4216-B76D-A9F0C69DCA08} = {65C61EE1-DA30-4F15-80E0-710D888CF30E}
 		{6A5FA601-D2CA-4CD2-BEE0-074B06736689} = {65C61EE1-DA30-4F15-80E0-710D888CF30E}
+		{AA5F072B-1664-48BB-BB2F-F69D845242C9} = {F05D354D-5888-482B-BB89-586BA3112CE6}
+		{65702A67-46E7-43E1-966F-7B6E7C793CE4} = {F05D354D-5888-482B-BB89-586BA3112CE6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7BA77B77-C408-43DC-9E73-B94FAF084A30}

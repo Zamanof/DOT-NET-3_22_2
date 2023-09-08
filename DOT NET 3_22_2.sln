@@ -49,9 +49,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Poymorphism", "Poymorphism\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 07", "Lesson 07", "{F05D354D-5888-482B-BB89-586BA3112CE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operator Overloading", "Operator Overloading\Operator Overloading.csproj", "{AA5F072B-1664-48BB-BB2F-F69D845242C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operator Overloading", "Operator Overloading\Operator Overloading.csproj", "{AA5F072B-1664-48BB-BB2F-F69D845242C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Typecasting overload", "Typecasting overload\Typecasting overload.csproj", "{65702A67-46E7-43E1-966F-7B6E7C793CE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Typecasting overload", "Typecasting overload\Typecasting overload.csproj", "{65702A67-46E7-43E1-966F-7B6E7C793CE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 08", "Lesson 08", "{C8463B15-634C-4EC9-B95B-39B6F7A76806}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indexers", "Indexers\Indexers.csproj", "{8F4AD5FD-3C22-473E-9B9D-7CB99724E590}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract_classes", "Abstract_classes\Abstract_classes.csproj", "{463747AD-ECD3-4609-9C08-615E0A09C889}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces_", "Interfaces_\Interfaces_.csproj", "{1B2A6BDF-6A4F-4500-95C5-0119CD348EFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -131,6 +139,18 @@ Global
 		{65702A67-46E7-43E1-966F-7B6E7C793CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65702A67-46E7-43E1-966F-7B6E7C793CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65702A67-46E7-43E1-966F-7B6E7C793CE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F4AD5FD-3C22-473E-9B9D-7CB99724E590}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F4AD5FD-3C22-473E-9B9D-7CB99724E590}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F4AD5FD-3C22-473E-9B9D-7CB99724E590}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F4AD5FD-3C22-473E-9B9D-7CB99724E590}.Release|Any CPU.Build.0 = Release|Any CPU
+		{463747AD-ECD3-4609-9C08-615E0A09C889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{463747AD-ECD3-4609-9C08-615E0A09C889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{463747AD-ECD3-4609-9C08-615E0A09C889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{463747AD-ECD3-4609-9C08-615E0A09C889}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B2A6BDF-6A4F-4500-95C5-0119CD348EFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B2A6BDF-6A4F-4500-95C5-0119CD348EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B2A6BDF-6A4F-4500-95C5-0119CD348EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B2A6BDF-6A4F-4500-95C5-0119CD348EFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -154,6 +174,9 @@ Global
 		{6A5FA601-D2CA-4CD2-BEE0-074B06736689} = {65C61EE1-DA30-4F15-80E0-710D888CF30E}
 		{AA5F072B-1664-48BB-BB2F-F69D845242C9} = {F05D354D-5888-482B-BB89-586BA3112CE6}
 		{65702A67-46E7-43E1-966F-7B6E7C793CE4} = {F05D354D-5888-482B-BB89-586BA3112CE6}
+		{8F4AD5FD-3C22-473E-9B9D-7CB99724E590} = {C8463B15-634C-4EC9-B95B-39B6F7A76806}
+		{463747AD-ECD3-4609-9C08-615E0A09C889} = {C8463B15-634C-4EC9-B95B-39B6F7A76806}
+		{1B2A6BDF-6A4F-4500-95C5-0119CD348EFA} = {C8463B15-634C-4EC9-B95B-39B6F7A76806}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7BA77B77-C408-43DC-9E73-B94FAF084A30}
